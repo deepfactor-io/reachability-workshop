@@ -53,8 +53,6 @@ public class Agent implements ClassFileTransformer
 
 	/*
 	 * flushClasses
-	 *
-	 * Send list of loaded classes to dfeventd
 	 */
 	public static synchronized void flushClasses() {
 		StringBuilder json = new StringBuilder();
