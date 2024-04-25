@@ -36,9 +36,7 @@ public class Agent implements ClassFileTransformer
 
 		public String getJson() {
 			StringBuilder json = new StringBuilder();
-			String source = "unknown";
 			boolean first = true;
-			boolean checkSource = true;
 
 			json.append("{ ");
 			json.append("\"class\": \"").append(className).append( "\"}");
@@ -112,7 +110,6 @@ public class Agent implements ClassFileTransformer
 			return buf;
 		}
 		String classNameDotted = className.replaceAll("/", ".");
-		String source;
 
 		allClasses.add(new ClassData(classNameDotted, loader));
 		return buf;
