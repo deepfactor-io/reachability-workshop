@@ -11,4 +11,4 @@ _gradle shawdowJar_ from the root of the repository.
 
 ## Workshop Materials
 
-Use this [presentation](https://github.com/zbraiterman/reachability-workshop/blob/main/OWASP%20Reachability%20Workshop.pdf) to learn about vulnerability reachability, including how to use this Java Agent.
+Use this [presentation](https://github.com/deepfactor-io/reachability-workshop/blob/main/OWASP%20Reachability%20Workshop.pdf) to learn about vulnerability reachability, including how to use this Java Agent.
