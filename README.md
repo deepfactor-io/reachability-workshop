@@ -7,4 +7,5 @@ prints the list of classes as a JSON blob to stdout.
 ## Building
 
 You will need gradle 6.1 or later installed. To build, run
-_gradle shawdowJar_ from the root of the repository.
+_gradle shawdowJar_ from the root of the repository. Note that
+gradle is not required to _use_ the agent, only to rebuild it.
